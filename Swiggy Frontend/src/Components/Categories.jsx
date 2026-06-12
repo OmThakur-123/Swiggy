@@ -7,7 +7,7 @@ const Categories = () => {
   const [categories, setCategories] = useState([]);
 
   const fetchCategories = async () => {
-     const response = await fetch('http://localhost:5000/categories')
+     const response = await fetch('http://swiggy-production-d608.up.railway.app/...')
      const data = await response.json();
       setCategories(data);
   }

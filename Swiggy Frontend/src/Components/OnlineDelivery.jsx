@@ -6,7 +6,7 @@ const OnlineDelivery = () => {
      const [Data, setData] = useState([]);
     
         const fetchTopRest = async () => {
-            const response = await fetch('http://localhost:5000/top-restaurant-chains');
+            const response = await fetch('http://swiggy-production-d608.up.railway.app/...');
             const apiData = await response.json();
             setData(apiData);
             console.log(apiData);
