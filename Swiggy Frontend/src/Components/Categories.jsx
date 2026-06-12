@@ -45,7 +45,7 @@ const Categories = () => {
               <div style={{
                 transform: `translateX(-${slide * 100}%)`
               }} key={index} className='w-37 shrink-0 duration-500'>
-          <img src={"http://localhost:5000/images/" + cat.image} alt="" />
+          <img src={"http://swiggy-production-d608.up.railway.app/..." + cat.image} alt="" />
               </div>
             )
           }
