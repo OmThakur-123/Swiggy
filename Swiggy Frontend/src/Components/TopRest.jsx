@@ -8,7 +8,7 @@ const TopRest = () => {
     const [Data, setData] = useState([]);
 
     const fetchTopRest = async () => {
-        const response = await fetch('https://swiggy-production-d608.up.railway.app/...');
+        const response = await fetch('https://swiggy-production-d608.up.railway.app/top-restaurant-chains');
         const apiData = await response.json();
         setData(apiData);
         console.log(apiData);
