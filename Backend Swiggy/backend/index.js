@@ -5,7 +5,9 @@ const path = require("path");
 const app = express();
 
 
-app.use(cors());
+app.use(cors({
+  origin: "https://resilient-palmier-c41d78.netlify.app"
+}));
 app.use("/images", express.static(path.join(__dirname, "images")));
 
 const category = require("./category.json");
