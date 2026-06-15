@@ -6,7 +6,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: "https://resilient-palmier-c41d78.netlify.app"
+  origin: "velvety-dusk-1409db.netlify.app"
 }));
 app.use("/images", express.static(path.join(__dirname, "images")));
 
