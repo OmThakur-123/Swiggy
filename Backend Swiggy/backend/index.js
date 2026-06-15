@@ -6,7 +6,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: "velvety-dusk-1409db.netlify.app"
+  origin: "*"
 }));
 app.use("/images", express.static(path.join(__dirname, "images")));
 
